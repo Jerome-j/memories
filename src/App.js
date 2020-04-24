@@ -23,11 +23,11 @@ function App() {
       {/* Component Imports */}
       <Navbar />
 
-      <Route path="/" exact component={ExercisesList} />
-      <Route path="/hawkers/:id" component={IndividualHawker} />
-      <Route path="/add-hawker" exact component={AddHawker} />
-      <Route path="/firebase-uploader" exact component={FirebaseUploader} />
-      <Route path="/firebase-uploader-multiple" exact component={FirebaseUploaderMultiple} />
+      <Route path="memories/" exact component={ExercisesList} />
+      <Route path="memories/hawkers/:id" component={IndividualHawker} />
+      <Route path="memories/add-hawker" exact component={AddHawker} />
+      <Route path="memories/firebase-uploader" exact component={FirebaseUploader} />
+      <Route path="memories/firebase-uploader-multiple" exact component={FirebaseUploaderMultiple} />
 
 
     </Router>
