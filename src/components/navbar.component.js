@@ -31,19 +31,19 @@ export default class Navbar extends Component {
                     <ul className="navbar-nav mr-auto">
 
                         <li className="navbar-item">
-                            <Link to="./" className="nav-link">Browse memories</Link>
+                            <Link to="/" className="nav-link">Browse memories</Link>
                         </li>
 
                         <li className="navbar-item">
-                            <Link to="./add-hawker" className="nav-link">Create memories</Link>
+                            <Link to="/add-hawker" className="nav-link">Create memories</Link>
                         </li>
 
                         <li className="navbar-item">
-                            <Link to="./firebase-uploader" className="nav-link"><b>Single </b>Firebase Uploader</Link>
+                            <Link to="/firebase-uploader" className="nav-link"><b>Single </b>Firebase Uploader</Link>
                         </li>
 
                         <li className="navbar-item">
-                            <Link to="./firebase-uploader-multiple" className="nav-link"><b>Multiple </b>Firebase Uploader</Link>
+                            <Link to="/firebase-uploader-multiple" className="nav-link"><b>Multiple </b>Firebase Uploader</Link>
                         </li>
 
                     </ul>

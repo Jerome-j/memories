@@ -137,7 +137,7 @@ export default class CreateExercise extends React.Component {
         axios.post(process.env.REACT_APP_API_ADD + '/hawkers', exercise)
             .then(res => console.log(res.data));
 
-        window.location = '/'; // Go back to the list of exercise
+        window.location = '/memories'; // Go back to the list of exercise
     }
 
 
