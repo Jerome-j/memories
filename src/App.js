@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <Router>
+    <Router basename={'memories'}>
 
       {/* Component Imports */}
       <Navbar />
